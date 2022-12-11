@@ -265,7 +265,7 @@ footer {
     margin-bottom: 0;
     font-weight: 400;
     max-width: 264px;
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 /*Portfolio*/
@@ -317,17 +317,19 @@ footer {
 .flex-element:nth-child(3n) {
     margin-right: 0;
     }
-.speciality {
-    padding-left: 16px;
-    padding-top: 8px;
+.portfolio-image {
+    padding-top: 32px;
     padding-bottom: 32px;
-    margin-bottom: 0;
+    padding-left: 16px;
+}    
+.speciality {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
 }
 .section-title-portfolio {
-    padding-left: 16px;
-    padding-top: 32px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 8px;
 }
 .container-portfolio {
     margin-bottom: 0;
