@@ -201,7 +201,16 @@ img {
     letter-spacing: 0.02em;
     margin-top: 0;
     margin-bottom: 8px;
-    
+    }
+.section-title-team {
+    color:var(--title-text-color);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-align: center;
 }
 .img {
     background: #FFFFFF;
