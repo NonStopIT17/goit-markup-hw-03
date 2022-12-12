@@ -15,7 +15,7 @@ html {
 }
 
 .container{
-    width: 1158px;
+    max-width: 1158px;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
@@ -50,12 +50,19 @@ img {
 /*Header*/
 .page-heder{
     background-color: FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 24px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .main-nav {
     display: flex;
     align-items:center;
-    
+    margin-left: 0;
+    margin-right: 0;
+}
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
 }
 .logo-web {
     color:var(--logo-color);
@@ -69,18 +76,17 @@ img {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.5;
+    margin-right: 72px;
     
 }
 .site-nav_list {
     display: flex; 
-    margin-left: 77px;
+    row-gap: 40px ;
+    column-gap: 40px;
     margin-top: 0;
     margin-bottom: 0;
     }
 
-.site-nav_list .item:not(:last-child) {
-    margin-right: 40px;
-}
 
 .link {
     color:var(--title-text-color);
@@ -97,12 +103,12 @@ img {
 .info {
     display: flex;
     margin-left: auto;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    row-gap: 40px;
+    column-gap: 40px;
 }
-.info .item + .item {
-    margin-left: 40px;
-}
+
 .contacts_link {
     color:var(--primary-text-color);
     font-size: 16px;
@@ -289,7 +295,7 @@ footer {
     background-color: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    padding: 8px 16px;
+    padding: 12px 24px;
     color: #4D5AE5;
     letter-spacing: 0.04em;
     font-weight: 600;
